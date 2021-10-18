@@ -164,3 +164,10 @@ main {
     margin-top: 5rem;
   }
 }
+
+@media (orientation: landscape) {
+  .footer {
+    display: flex;
+    justify-content: center;
+  }
+}

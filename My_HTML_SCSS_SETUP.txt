@@ -1,0 +1,54 @@
+HTML:
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, 
+	initial-scale=1.0" />
+    <title>Document</title>
+	**YOU CAN ADD GOOGLE FONT**
+    <link rel="stylesheet" href="css/normalize.css" />
+	**YOU CAN USE NORMALIZE IF YOU LIKE**
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body></body>
+</html>
+
+
+SCSS GLOBALS:
+
+/* 62.5% of 16px = 10px */
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "", Arial, Helvetica, sans-serif;
+  color: ;
+  font-size: 1rem;
+  line-height: 1.3
+}
+
+
+html, body {
+   margin: 0
+   padding: 0
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}

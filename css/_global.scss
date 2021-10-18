@@ -1,0 +1,52 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.3;
+  font-family: $font-body;
+  font-size: 1.3rem;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  margin-bottom: 60px;
+}
+
+h1 {
+  font-family: $font-title;
+  font-weight: 700;
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-family: $font-title;
+  font-weight: 700;
+  font-size: 3.2rem;
+}
+
+p {
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+}

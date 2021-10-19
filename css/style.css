@@ -64,7 +64,7 @@ body {
 }
 
 header {
-  text-align: center;
+  text-align: left;
   margin-bottom: 0;
 }
 
@@ -91,6 +91,7 @@ main {
 .hero-image {
   width: 100%;
   margin-left: -2rem;
+  margin-top: 11rem;
 }
 
 .hero-text {
@@ -143,9 +144,16 @@ main {
   .footer {
     margin-top: 10rem;
   }
+  .hero-text {
+    text-align: left;
+    padding: 10rem;
+  }
+  .hero-image {
+    margin-top: 4rem;
+  }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   body {
     margin-bottom: 0;
   }
@@ -177,6 +185,7 @@ main {
   }
   .hero-image {
     width: 100%;
+    margin-top: 0px;
   }
   .footer {
     display: -webkit-box;
@@ -205,8 +214,8 @@ main {
 
 @media screen and (max-width: 280px) {
   body {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
   .hero-image {
     margin-left: 0px;
@@ -218,12 +227,26 @@ main {
     padding: 40px 80px 40px 80px;
   }
   main {
-    margin-bottom: 56rem;
     margin-top: 5rem;
+  }
+  .hero-text {
+    text-align: left;
+    padding: 4rem;
   }
 }
 
 @media (orientation: landscape) {
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (orientation: portrait) {
   .footer {
     display: -webkit-box;
     display: -ms-flexbox;
